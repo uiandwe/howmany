@@ -1,0 +1,36 @@
+
+div.panel{
+    border:none !important;
+}
+
+
+th, td{
+    font-size: 13px;
+    line-height: 1.428571429;
+    color: #333333;
+}
+
+table thead tr th:first-child{
+    width : 13% !important;
+}
+
+table thead tr th:nth-child(9){
+    width : 9% !important;
+}
+
+table thead, table tbody tr th {
+    background-color: rgba(0,0,0,0.02) !important;
+}
+
+
+table tbody tr td:nth-child(n+2), table tfoot tr td:nth-child(n+2){
+    text-align : right;
+}
+
+#jq-datatables-example_wrapper #jq-datatables-example_length label{
+    font-weight: 200;
+}
+
+input.form-control.input-sm{
+    font-weight: 200;
+}
